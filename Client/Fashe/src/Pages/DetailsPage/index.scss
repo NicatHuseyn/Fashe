@@ -1,0 +1,35 @@
+section{
+    width: 100%;
+    padding: 40px 0;
+
+    .detail{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .image{
+            width: 50%;
+            padding: 40px;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .product-detail{
+            width: 40%;
+            padding: 20px 0;
+
+            span{
+                width: 100%;
+                padding: 20px 0;
+                border-bottom: 15px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid teal;
+            }
+        }
+    }
+}

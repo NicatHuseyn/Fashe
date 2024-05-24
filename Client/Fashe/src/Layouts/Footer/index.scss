@@ -1,0 +1,103 @@
+footer {
+    width: 100%;
+    padding: 40px 10px;
+    background-color: #F0F0F0;
+    font-family: "Montserrat", sans-serif;
+
+    .footer-inner {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .description {
+            width: 30%;
+            padding: 0 10px;
+
+            h3 {
+                color: #000;
+                margin: 20px 0;
+            }
+
+            P {
+                color: #000;
+                font-size: 14px;
+            }
+        }
+
+        .row {
+            width: 70%;
+
+            .gutter-row {
+
+                div {
+                    text-align: center;
+                    h4 {
+                        color: #000;
+                        font-size: 14px;
+                        margin: 20px 0;
+                    }
+
+                    ul{
+                        li{
+                            margin: 10px 0;
+                            a{
+                                color: #333;
+                            }
+                        }
+                    }
+
+                    input{
+                        width: 250px;
+                        padding: 15px 5px;
+                        outline: none;
+                        border-radius: 12px;
+                        border: none;
+                        margin-bottom: 20px;
+                    }
+
+                    button{
+                        background-color: #000;
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #fff;
+                        padding: 15px 20px;
+                        cursor: pointer;
+                        border-radius: 18px;
+                        border: none;
+                        margin: 10px 0;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .foot{
+        width: 100%;
+        padding: 60px 0;
+        span{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .end-text{
+            text-align: center;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    footer{
+        .footer-inner{
+            flex-direction: column;
+            .description{
+                width: 100%;
+            }
+        }
+    }
+  }

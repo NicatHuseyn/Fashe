@@ -1,0 +1,41 @@
+.add{
+    width: 100%;
+    padding: 40px 0;
+    font-family: "Montserrat", sans-serif;
+    .add-inner{
+        width: 100%;
+
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+
+            label{
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .my-input{
+                width: 500px;
+                padding: 10px 5px;
+                outline: none;
+                border-radius: 5px;
+                border: none;
+                border-bottom: 1px solid teal;
+                font-size: 16px;
+            }
+
+            button{
+                padding: 15px 50px;
+                cursor: pointer;
+                background-color: blue;
+                color: #fff;
+                font-size: 16px;
+                border: none;
+                border-radius: 6px;
+            }
+        }
+    }
+}
